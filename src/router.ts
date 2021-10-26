@@ -33,10 +33,8 @@ export class Router {
     this.page = initialPage
     // console.log(initialPage);
     // console.log(this.axiosConfig);
-    console.log(axiosConfig);
-
+    // console.log(axiosConfig);
     this.axiosConfig = axiosConfig ?? this.axiosConfig
-
     this.resolveComponent = resolveComponent
     this.swapComponent = swapComponent
 
